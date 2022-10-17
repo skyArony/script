@@ -12,4 +12,9 @@ binFile="$server"
 # 启动命令
 execCmd="$WORK_PATH/$binFile"
 
+## 可执行文件相对工作目录的位置
+##bin=./$binFile
+### 编译入口文件相对工作目录的位置
+##main=./cmd/exporter/main.go
+
 ################ 启停参数配置 ###############
